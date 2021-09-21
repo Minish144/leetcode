@@ -15,7 +15,7 @@ func middleNode(head *ListNode) *ListNode {
     }
     
     middle := middle(count)
-    fmt.Println(middle)
+
     curNode = head
     for i := 1; i < middle; i++ {
         curNode = curNode.Next
